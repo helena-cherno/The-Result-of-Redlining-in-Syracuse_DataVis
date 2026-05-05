@@ -1,0 +1,100 @@
+/*Your CSS goes here.*/
+
+.pt-serif-regular {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-serif-bold {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titillium-web-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.titillium-web-bold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body{
+	margin: 0px auto;
+	padding: 20px;
+}
+
+header{
+  text-align: left;
+  border-bottom: 2px solid grey;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.Article{ max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding: 25px;
+
+}
+
+.Story-Header h1{
+  font-family: .pt-serif-bold, serif;
+  font-size: 42px;
+}
+
+.Story-Header .by-line{
+font-family: titillium-web-regular;
+font-size: 18px;
+line-height: 15px;
+}
+
+.Story-Header .published{
+  font-size: 14px;
+  color: #818589;
+}
+.photo{
+max-width: 100%;
+}
+
+.Story-Header .Photo-caption{
+  font-family: .Titillium Web,sans-serif;
+  color: #818589;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.story-body{
+	font-size: 20px;
+	line-height: 30px;
+  font-family: pt-serif-regular, serif;
+}
+
+a{
+  color: #5C6899;
+  text-decoration-style: wavy;
+}
+
+Hover: a{
+  font-weight: bolder;
+}
+
+.Footer{
+  max-width: 800px;
+  border-top: 2px solid grey;
+}
+
+.Footer .h2{
+  font-size: 30px;
+  font-family: .pt-serif-bold, serif;
+  font-weight: bold;
+}
+
